@@ -1,4 +1,4 @@
-export default function Blog() {
+export default function Portfolio() {
   const containerStyle = {
     fontFamily: 'Arial, sans-serif',
     maxWidth: '800px',
@@ -23,7 +23,7 @@ const imgStyle = {
 
   return (
     <div style={containerStyle}>
-      <h1 style={headingStyle}>Projects</h1>
+      <h1 style={headingStyle}>Portfolio</h1>
 
       {/* Project 1: SAM's Restaurant Locator */}
       <div style={projectStyle}>

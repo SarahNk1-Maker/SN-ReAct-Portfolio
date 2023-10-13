@@ -30,10 +30,6 @@ const footerStyle = {
   marginTop: '40px',
 };
 
-const iconStyle = {
-  fontSize: '24px',
-  margin: '0 10px',
-};
 const githubURL = 'https://github.com/SarahNk1-Maker'; // Replace with your actual GitHub profile URL
   const linkedinURL = 'www.linkedin.com/in/sarah-naveed'; // Replace with your actual LinkedIn profile URL
 

@@ -7,16 +7,19 @@ function Contact() {
   const [message, setMessage] = useState('');
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleFormSubmit = (e) => {
     e.preventDefault();
     // You can handle form submission logic here, e.g., sending data to a server or displaying a success message.
     console.log('Form submitted:', { name, email, message });
+    setName('');
+    setEmail('');
+    setMessage('');
   };
 
   return (
     <div>
       <h2>Contact Us</h2>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleFormSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input
