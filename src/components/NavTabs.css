@@ -1,0 +1,24 @@
+/* NavTabs.css */
+.nav-tabs {
+    max-width: 800; /* Corrected max-width with a unit (e.g., px) */
+    font-size: large;
+    background-color: #333;
+    border-bottom: 8px solid black; /* Increased border thickness */
+    color: white;
+    display: flex;
+    justify-content: flex-end; /* Move text to the right */
+    background-image: url(Assets/turned-gray-laptop-computer.jpg);
+    background-size: cover; /* Adjust the background image size */
+    background-repeat: repeat; /* Prevent background image from repeating */
+    background-position: center; /* Center the background image */
+  }
+
+  
+  .nav-link {
+    color:grey; /* Set the text color for inactive links */
+  }
+  
+  .nav-link.active {
+    background-color: #007bff; /* Set the background color for the active link */
+  }
+  
