@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './App.css'; 
+
 function Contact() {
   // Define state variables for form fields
   const [name, setName] = useState('');
@@ -17,45 +19,44 @@ function Contact() {
   };
 
   return (
-    <div>
-      <h2>Contact Us</h2>
-      <form onSubmit={handleFormSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea
-            id="message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            required
-          />
-        </div>
-        <button type="submit">Submit</button>
-      </form>
+<div>
+  <h2 className="contact-heading">Contact Us</h2>
+  <form onSubmit={handleFormSubmit} className="contact-form">
+    <div className="form-group">
+      <label htmlFor="name" className="form-label">Name:</label>
+      <input
+        type="text"
+        id="name"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+        required
+        className="form-input"
+      />
     </div>
-  );
-}
+    <div className="form-group">
+      <label htmlFor="email" className="form-label">Email:</label>
+      <input
+        type="email"
+        id="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        required
+        className="form-input"
+      />
+    </div>
+    <div className="form-group">
+      <label htmlFor="message" className="form-label">Message:</label>
+      <textarea
+        id="message"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+        required
+        className="form-textarea"
+      />
+    </div>
+    <button type="submit" className="submit-button">Submit</button>
+  </form>
+</div>
+  )}
 
 export default Contact;
-
-
-

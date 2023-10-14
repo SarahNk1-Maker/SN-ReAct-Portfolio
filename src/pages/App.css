@@ -1,0 +1,138 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Background color for the entire page */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  background-color: white; /* Set a background color for the cards */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the cards */
+  margin-bottom: 2rem;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Contact.css */
+.contact-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: white; /* Set a background color for the form */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the form */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Increase the spacing between form groups */
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px; /* Add some margin below labels for spacing */
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  background-color: #007bff; /* Professional blue color */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Slightly darker blue color on hover */
+}
+
+/* Portfolio.css */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+
+h1 {
+  font-size: 36px;
+  color: #333; /* Dark gray text color */
+  margin-bottom: 20px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #fff; /* White background color for each project */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the projects */
+  border-radius: 5px;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%; /* Ensure images scale proportionally */
+}
+
+

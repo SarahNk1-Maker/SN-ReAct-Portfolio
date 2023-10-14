@@ -1,49 +1,63 @@
+import React from 'react';
+import './App.css'; // Import your CSS file
+import { FaGithub } from 'react-icons/fa'; // Import icons from react-icons library
+
+
+const githubURL = 'https://github.com/SarahNk1-Maker';
 export default function Portfolio() {
-  const containerStyle = {
-    fontFamily: 'Arial, sans-serif',
-    maxWidth: '800px',
-    margin: '0 auto',
-    padding: '100px',
-  };
-
-  const headingStyle = {
-    fontSize: '24px',
-    color: 'black',
-    marginBottom: '20px',
-  };
-
-  const projectStyle = {
-    marginBottom: '20px',
-  };
-
-const imgStyle = {
-  maxWidth: '800px', // Adjust the image width as needed
-
-};
-
   return (
-    <div style={containerStyle}>
-      <h1 style={headingStyle}>Portfolio</h1>
+    <div className="container">
+      <h1>Portfolio</h1>
 
       {/* Project 1: SAM's Restaurant Locator */}
-      <div style={projectStyle}>
-        <img src="Assets/Screenshot 2023-10-06 at 12.11.59 PM.png" alt="SAM's Restaurant Locator" style={imgStyle} />
+      <div className="project">
+        <img src="Assets/SAM.png" alt="SAM's Restaurant Locator" />
         <h3>SAM's Restaurant Locator</h3>
         <p>
           A restaurant app that aims to simplify the process of finding, exploring, and enjoying dining experiences while offering convenience and value to both users and restaurant owners.
         </p>
+        <a href={githubURL} target="_blank" rel="noopener noreferrer">
+         
+          <FaGithub size={40} style={{ margin: '10px' }} />
+        </a>
       </div>
 
       {/* Project 2: Restful Recipes */}
-      <div style={projectStyle}>
-        <img src="Assets/Screenshot 2023-10-06 at 10.29.45 AM.png" alt="Restful Recipes" style={imgStyle} />
+      <div className="project">
+        <img src="Assets/img.jpeg" alt="Restful Recipes" />
         <h3>Restful Recipes</h3>
         <p>
           A recipe sharing platform. I developed this for my class in the bootcamp to share their tried and tested recipes here.
         </p>
+        <a href={githubURL} target="_blank" rel="noopener noreferrer">
+         
+         <FaGithub size={40} style={{ margin: '10px' }} />
+       </a>
       </div>
-
-
+      {/* Project 2: Restful Recipes */}
+      <div className="project">
+        <img src="Assets/img.jpeg" alt="Restful Recipes" />
+        <h3>Restful Recipes</h3>
+        <p>
+          A recipe sharing platform. I developed this for my class in the bootcamp to share their tried and tested recipes here.
+        </p>
+        <a href={githubURL} target="_blank" rel="noopener noreferrer">
+         
+         <FaGithub size={40} style={{ margin: '10px' }} />
+       </a>
+      </div>
+      {/* Project 2: Restful Recipes */}
+      <div className="project">
+        <img src="Assets/img.jpeg" alt="Restful Recipes" />
+        <h3>Restful Recipes</h3>
+        <p>
+          A recipe sharing platform. I developed this for my class in the bootcamp to share their tried and tested recipes here.
+        </p>
+        <a href={githubURL} target="_blank" rel="noopener noreferrer">
+         
+         <FaGithub size={40} style={{ margin: '10px' }} />
+       </a>
+      </div>
     </div>
   );
 }
