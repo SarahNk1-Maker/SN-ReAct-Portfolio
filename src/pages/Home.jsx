@@ -37,7 +37,7 @@ export default function Home() {
   return (
     <div style={containerStyle}>
       <h1>Sarah Naveed</h1>
-      <img src="../assets/Untitled design.png" alt="Avatar" style={imgStyle} />
+      <img src="/Users/sarahnaveed/Desktop/SN-ReAct-Portfolio/src/assets/Untitled design.png" alt="Avatar" style={imgStyle} />
       <h2 style={headingStyle}>Crafting Digital Experiences, One Line of Code at a Time</h2>
       <p style={paragraphStyle}>
         {'I am a passionate and dedicated web developer with a strong foundation in building and designing web applications. My journey into the world of web development began with a genuine curiosity and an insatiable appetite for learning. I thrive on creating innovative and efficient solutions to real-world problems and turning them into seamless, user-friendly experiences on the web.'}
