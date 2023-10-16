@@ -7,7 +7,7 @@
     color: white;
     display: flex;
     justify-content: flex-end; /* Move text to the right */
-    background-image: url(Assets/turned-gray-laptop-computer.jpg);
+    background-image: url(../assets/turned-gray-laptop-computer.jpg);
     background-size: cover; /* Make the background image cover the container */
     background-repeat: no-repeat; /* Prevent background image from repeating */
     background-position: center; /* Center the background image */
