@@ -11,7 +11,6 @@ export default function Resume() {
         <ul>
           <li>Email: SarahNaveed216@gmail.com</li>
           <li>Phone: (123) 456-7890</li>
-          <li>Website: www.johndoe.dev</li>
           <li>LinkedIn: www.linkedin.com/in/saarhNaveed</li>
           <li>GitHub: www.github.com/SarahNk1-maker</li>
         </ul>
@@ -42,7 +41,7 @@ export default function Resume() {
       <div className="experience">
         <h2>Experience</h2>
         <p>
-          <strong>Web Developer</strong> - XYZ Web Solutions (2020 - Present)
+          <strong>Business Analyst</strong> - Accenture. (2022 - Present)
         </p>
         <ul>
 
@@ -51,13 +50,10 @@ export default function Resume() {
         </ul>
 
         <p>
-          <strong>Business Analyst</strong> - Accenture. (2022 - 2023)
+          <strong>Marketing Assistant</strong> - A-Plus Staffing. (2019 - 2021)
         </p>
         <ul>
-        <li>Develop and maintain client websites using React.js and other modern web technologies.</li>
-          <li>Collaborate with design and development teams to create user-friendly and responsive web interfaces.</li>
-          <li>Optimize website performance and ensure cross-browser compatibility.</li>
-         
+        <li>Experience Details</li> 
         </ul>
       </div>
 
