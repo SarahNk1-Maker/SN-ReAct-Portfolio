@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa'; // Import icons from react-icons libr
 import img1 from '../assets/img.jpeg';
 import SAM from '../assets/SAM.png';
 import img from '../assets/img.jpeg';
-import SAM1 from '../assets/SAM.png';
+
 
 
 const githubURL = 'https://github.com/SarahNk1-Maker';
