@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Import icons from react-icons library
 
 
+import image from "../assets/Untitled design.png";
 const containerStyle = {
   fontFamily: 'Arial, sans-serif',
   fontSize: '30px',
@@ -37,7 +38,7 @@ export default function Home() {
   return (
     <div style={containerStyle}>
       <h1>Sarah Naveed</h1>
-      <img src="https://www.canva.com/design/DAFxJ677hz8/sQ8KrwY_AZIf4pbveEA2Jg/edit?utm_content=DAFxJ677hz8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" alt="Avatar" style={imgStyle} />
+      <img src="{image}" alt="avatar" style={imgStyle} />
       <h2 style={headingStyle}>Crafting Digital Experiences, One Line of Code at a Time</h2>
       <p style={paragraphStyle}>
         {'I am a passionate and dedicated web developer with a strong foundation in building and designing web applications. My journey into the world of web development began with a genuine curiosity and an insatiable appetite for learning. I thrive on creating innovative and efficient solutions to real-world problems and turning them into seamless, user-friendly experiences on the web.'}

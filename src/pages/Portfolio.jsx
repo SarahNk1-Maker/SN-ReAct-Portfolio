@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'; // Import your CSS file
 import { FaGithub } from 'react-icons/fa'; // Import icons from react-icons library
 
+import from '../path/to/image'
 
 const githubURL = 'https://github.com/SarahNk1-Maker';
 export default function Portfolio() {
