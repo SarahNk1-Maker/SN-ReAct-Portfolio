@@ -39,3 +39,8 @@ For questions or feedback, please contact me via GitHub or email:
 ## Mock-up 
 https://sarah-naveed.netlify.app/Contact  
 
+![Alt text](<Screenshot 2023-10-17 at 8.46.47 AM-1.png>)  
+![Alt text](<Screenshot 2023-10-17 at 8.46.59 AM-1.png>)   
+![Alt text](<Screenshot 2023-10-17 at 8.47.10 AM-1.png>)   
+
+![Alt text](<Screenshot 2023-10-17 at 8.47.14 AM-1.png>)
