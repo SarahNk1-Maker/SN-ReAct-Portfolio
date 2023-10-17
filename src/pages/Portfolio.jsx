@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css'; // Import your CSS file
 import { FaGithub } from 'react-icons/fa'; // Import icons from react-icons library
 
+import img1 from '../assets/img.jpeg';
+import SAM from '../assets/SAM.png';
+import img from '../assets/img.jpeg';
+import SAM1 from '../assets/SAM.png';
 
 
 const githubURL = 'https://github.com/SarahNk1-Maker';
@@ -12,7 +16,7 @@ export default function Portfolio() {
 
       {/* Project 1: SAM's Restaurant Locator */}
       <div className="project">
-        <img src="Assets/SAM.png" alt="SAM's Restaurant Locator" />
+        <img src={SAM} alt="SAM's Restaurant Locator" />
         <h3>SAM's Restaurant Locator</h3>
         <p>
           A restaurant app that aims to simplify the process of finding, exploring, and enjoying dining experiences while offering convenience and value to both users and restaurant owners.
@@ -25,7 +29,7 @@ export default function Portfolio() {
 
       {/* Project 2: Restful Recipes */}
       <div className="project">
-        <img src="Assets/img.jpeg" alt="Restful Recipes" />
+        <img src={img} alt="Restful Recipes" />
         <h3>Restful Recipes</h3>
         <p>
           A recipe sharing platform. I developed this for my class in the bootcamp to share their tried and tested recipes here.
@@ -37,7 +41,7 @@ export default function Portfolio() {
       </div>
       {/* Project 2: Restful Recipes */}
       <div className="project">
-        <img src="Assets/img.jpeg" alt="Restful Recipes" />
+        <img src={img1} alt="Restful Recipes" />
         <h3>Restful Recipes</h3>
         <p>
           A recipe sharing platform. I developed this for my class in the bootcamp to share their tried and tested recipes here.
@@ -49,7 +53,7 @@ export default function Portfolio() {
       </div>
       {/* Project 2: Restful Recipes */}
       <div className="project">
-        <img src="Assets/img.jpeg" alt="Restful Recipes" />
+        <img src={img1} alt="Restful Recipes" />
         <h3>Restful Recipes</h3>
         <p>
           A recipe sharing platform. I developed this for my class in the bootcamp to share their tried and tested recipes here.
