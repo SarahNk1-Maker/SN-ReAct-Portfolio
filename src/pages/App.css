@@ -19,7 +19,9 @@ body {
   will-change: filter;
   transition: filter 300ms;
 }
-
+ul{
+  list-style-type: none;
+}
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -133,7 +135,8 @@ h1 {
 }
 
 img {
-  max-width: 100%; /* Ensure images scale proportionally */
+  width: 250px;
+  height:auto ; /* Ensure images scale proportionally */
 }
 
 

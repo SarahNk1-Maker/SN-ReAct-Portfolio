@@ -11,7 +11,7 @@ export default function Resume() {
         <ul>
           <li>Email: SarahNaveed216@gmail.com</li>
           <li>Phone: (123) 456-7890</li>
-          <li>LinkedIn: www.linkedin.com/in/saarhNaveed</li>
+          <li>LinkedIn: www.linkedin.com/in/sarahNaveed</li>
           <li>GitHub: www.github.com/SarahNk1-maker</li>
         </ul>
       </div>
